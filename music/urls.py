@@ -1,7 +1,7 @@
 from django.conf.urls import url
 from . import views
 
-Purlpatterns = [
+urlpatterns = [
 # default home page /music/
 	url(r'^$', views.index, name='index'),
 					
